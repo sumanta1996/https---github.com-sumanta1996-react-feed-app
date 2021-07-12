@@ -1,0 +1,51 @@
+.imageTile {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgray;
+    background-color: white;
+    border-radius: 4px;
+    position: relative;
+}
+
+.userDetail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.bottomBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+.likeComment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.dateContainer {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+}

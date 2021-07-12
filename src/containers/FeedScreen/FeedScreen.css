@@ -1,0 +1,29 @@
+.content {
+    background-color: #F5F5F5 ;
+    margin-top: 60px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loader {
+    width: 100%;
+    height: 50px;
+}
+
+.sortBy {
+    width: 50%;
+    margin-left: -24%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.emptyContainer {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
